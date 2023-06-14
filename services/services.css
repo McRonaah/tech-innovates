@@ -54,3 +54,35 @@ h1{
     font-size: xx-large;
     font-weight: 1200;
 }
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color:#16a044;
+    
+    width: 100%;
+    padding: 20px;
+  }
+  
+  nav img{
+      margin-right: auto;
+      height: 100px;
+      border-radius: 8px;
+  }
+  
+  nav ul {
+      display: flex;
+      list-style: none;
+  }
+  
+  nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+  
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 700;
+  
+  }
