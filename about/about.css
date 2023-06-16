@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
+    background-color: gray;
     background-size: contain;
     
   }
@@ -10,21 +10,18 @@ body {
   .about {
 
     padding: 20px;
-    background-color: #16a044;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     height: 100vh;
     
   }
   
   h1 {
-    color: #333;
     text-align: center;
     margin-bottom: 20px;
     
   }
   
   p {
-    color: #666;
     line-height: 1.5;
     margin-bottom: 10px;
   }
@@ -32,9 +29,7 @@ body {
   nav {
     display: flex;
     justify-content: flex-end;
-    color: white;
-    background-color:#16a044;
-    
+    color: white;    
     width: 100%;
     padding: 20px;
   }
@@ -51,7 +46,7 @@ body {
   }
   
   nav ul li a {
-      color: white;
+      color: rgb(5, 5, 5);
       text-decoration: none;
       font-weight: 600;
   
