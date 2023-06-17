@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.team-member {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
