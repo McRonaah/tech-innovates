@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin-left: 20px;
     background-color: aqua;
 }
 
@@ -20,14 +20,64 @@ p {
     grid-gap: 10px;
 }
 
-.gallery img {
+/* .gallery img {
     width: 100%;
     height: auto;
     object-fit: cover;
-}
+} */
 
 .team-member {
     text-align: center;
     font-size: 16px;
     margin-top: 10px;
 }
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    /* background-color:black; */
+    
+    width: 100%;
+    padding: 20px;
+  }
+  
+  nav img{
+      margin-right: auto;
+      height: 100px;
+      border-radius: 8px;
+  }
+  
+  nav ul {
+      display: flex;
+      list-style: none;
+  }
+  
+  nav ul li a {
+      color: rgb(15, 126, 74);
+      text-decoration: none;
+      font-weight: 600;
+  
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 700;
+  
+  }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .images img {
+    width: 20%; 
+    height: 300px; 
+    border-radius: 20px;
+    margin: 5px;
+    object-fit: cover;
+  }
